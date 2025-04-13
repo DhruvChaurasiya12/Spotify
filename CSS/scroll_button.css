@@ -1,0 +1,51 @@
+.card-section{
+    position: relative;
+    overflow-x: auto; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+    scroll-behavior: smooth;
+}
+
+.card-section::-webkit-scrollbar {
+    display: none;
+}
+
+.card-section-container .scroll-button{
+    position: absolute;
+    height: 17.5rem;
+    width: 5rem;
+    background-color: transparent;
+    align-items: center;
+    z-index: 100;
+    opacity: 0;
+}
+
+.card-section-container .left-btn{
+    left: 0;
+    justify-content: start;
+}
+
+.card-section-container .right-btn{
+    right: 0;
+    justify-content: end;
+}
+
+.card-section-container .scroll-button:hover{
+    opacity: 1;
+}
+
+.scroll-button .leftButton, .scroll-button .rightButton{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #181818;
+}
+
+.scroll-button .leftButton i, .scroll-button .rightButton i{
+    font-size: 1.3rem;
+    color: white;
+}
+
+.scroll-button .leftButton:hover, .scroll-button .rightButton:hover{
+    background-color: #272727;
+}

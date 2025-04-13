@@ -1,0 +1,167 @@
+.header-content{
+    padding: 0.5rem;
+    height: 7.5vh;
+}
+
+#spotify-logo{
+    width: 4rem;
+    align-items: center;
+}
+
+.home{
+    width: 55%;
+    height: 100%;
+}
+
+.home-content{
+    margin: 0rem 0.5rem;
+    max-width: 75%;
+    height: 100%;
+}
+
+.home-content img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#home-logo{
+    width: 3.5rem;
+    border-radius: 1.5rem;
+    background-color: #232323;
+}
+
+#home-logo:hover{
+    background-color: #2d2d2d;
+    img {
+        height: 1.55rem;
+        width: 1.55rem;
+    }
+}
+
+.search-input{
+    width: 100%;
+    height: 100%;
+    margin-left: 0.5rem;
+    border-radius: 2rem;
+    background-color: #232323;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+}
+
+.search-input:hover{
+    background-color: #2d2d2d;
+}
+
+.search-input label{
+    width: 3.5rem;
+}
+
+.search-input input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+    color: white;
+}
+
+input::placeholder{
+    color: rgb(191, 189, 189);
+}
+
+.search-input button{
+    height: 100%;
+    width: 3.5rem;
+    background-color: transparent;
+}
+
+.search-input button i{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.search-input .without-text{
+    visibility: hidden;
+}
+
+.search-input .with-text{
+    visibility: visible;
+}
+
+.search-input button div{
+    height: 1.5rem;
+    width: 100%;
+    border-left: 1px solid gray;
+    box-sizing: border-box;
+}
+
+
+
+
+.sign-in{
+    width: 40%;
+}
+
+#premium-button{
+    width: 9rem;
+    padding: 0 1rem;
+    height: 2rem;
+    background-color: white;
+    margin: 0 0.25rem;
+}
+
+#premium-button:hover{
+    font-size: 0.85rem;
+    margin-right: 0;
+    width: 9.25rem;
+    background-color: rgb(246, 244, 244);
+}
+
+.sign-in-content a{
+    text-decoration: none;
+    gap: 0.5rem;
+    color: rgb(191, 189, 189);
+    width: 8rem;
+    margin: 0 0.25rem;
+}
+
+.sign-in-content a:hover{
+    font-size: 1.05rem;
+    color: white;
+}
+
+.sign-in-content img{
+    height: 1rem;
+    width: 1rem;
+}
+
+.sign-in-content button{
+    width: 3rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    margin: 0 0.25rem;
+}
+
+.sign-in-content #notifn img:hover{
+    height: 1.05rem;
+    width: 1.05rem;
+}
+
+#profile{
+    background-color: #232323;
+    height: 3rem;
+    width: 3rem;
+}
+
+.sign-in-content button div{
+    height: 2rem;
+    background-color: rgb(25, 230, 140);
+    width: 2rem;
+    border-radius: 1.5rem;
+    color: black;
+}
+
+#profile:hover{
+    font-size: 0.95rem;
+}

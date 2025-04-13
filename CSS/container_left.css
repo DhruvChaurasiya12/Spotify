@@ -1,0 +1,117 @@
+.left{
+    background-color: #171717;
+    min-width: 344px;
+    border-radius: 1rem;
+    margin-left: 0.4vw;
+    min-height: 100%;
+    display: block;
+}
+
+.left-header{
+    padding: 0.5rem 1rem;
+    max-height: 56px;
+    min-height: 40px;
+}
+
+.left-header #div1{
+    width: 100%;
+    height: 100%;
+}
+
+.left-header button{
+    background-color: transparent;
+    color: rgb(191, 189, 189);;
+}
+
+#div1 #your-library span{
+    padding: 0.3rem;
+}
+
+#div1 #your-library:hover{
+    color: white;
+}
+
+#div1 #your-library span img{
+    height: 4.5vh;
+    width: 4.5vh;
+}
+
+.left-header #div2{
+    gap: 0.5rem;
+}
+
+#div2 #create-button{
+    border-radius: 2rem;
+    background-color: #232323;
+    padding: 0rem 0.5rem;
+    color: white;
+}
+
+#div2 #create-button:hover{
+    background-color: #2d2d2d;
+}
+
+#div2 #create-button span{
+    padding: 0.3rem;
+}
+
+#div2 img{
+    height: 2.5vh;
+    width: 2.5vh;
+}
+
+#div2 #expand-left{
+    height: 100%;
+    width: 7vh;
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 0.5rem;
+}
+
+#div2 #expand-left:hover{
+    background-color: #2d2d2d;
+}
+
+.left-content{
+    margin: 0.5rem;
+}
+
+.left-content h5{
+    color: rgb(191, 189, 189);
+}
+
+.left-content h5:hover{
+    color: white;
+}
+
+.playlist, .podcast{
+    padding: 1rem;
+    height: 15vh;
+    display: grid;
+    grid-template-rows: 7.5vh 5vh;
+    gap: 2.5vh;
+    background-color: #232323;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+}
+
+.playlist div, .podcast div{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.playlist button, .podcast button{
+    border-radius: 2rem;
+    max-width: fit-content;
+    border: none;
+}
+
+.playlist button:hover, .podcast button:hover{
+    font-size: 0.85rem;
+    background-color: rgb(246, 244, 244);
+}
+
+.playlist button span, .podcast button span{
+    padding: 0rem 1rem;
+    height: 100%;
+}

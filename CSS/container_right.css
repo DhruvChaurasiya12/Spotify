@@ -1,0 +1,69 @@
+.right{
+    background-color: #171717;
+    width: 100%;
+    border-radius: 1rem;
+    margin: 0 0.5rem 0 0.5rem;
+    padding: 0 2rem;
+    gap: 3rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.right header{
+    height: 4rem;
+    padding-left: 0.5rem;
+    width: 100%;
+}
+
+.right header div{
+    gap: 0.5rem;
+}
+
+.right header div button{
+    padding: 0.5rem 0.75rem;
+    border-radius: 2rem;
+    background-color: #232323;
+    color: white;
+}
+
+.right header div button:hover{
+    background-color: #2d2d2d;
+}
+
+.right header div #All{
+    background-color: white;
+    color: black;
+}
+
+.right header div #All:hover{
+    background-color: rgb(246, 244, 244);
+}
+
+.card-section-header{
+    height: 3rem;
+    align-items: end;
+    justify-content: space-between;
+    padding: 1rem 0.5rem 0.25rem;
+}
+
+.card-section-header h2{
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-section-header h5{
+    min-width: fit-content;
+    color: gray;
+}
+
+.card-section-container{
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.card-section{
+    padding-top: 0.5rem;
+    gap: 0.5rem;
+}

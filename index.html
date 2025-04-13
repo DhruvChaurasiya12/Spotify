@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/container_left.css">
+    <link rel="stylesheet" href="CSS/container_right.css">
+    <link rel="stylesheet" href="CSS/card_normal.css">
+    <link rel="stylesheet" href="CSS/card_artist.css">
+    <link rel="stylesheet" href="CSS/scroll_button.css">
+    <link rel="stylesheet" href="CSS/searchSong.css">
+    <link rel="stylesheet" href="CSS/card_hover.css">
+    <link rel="stylesheet" href="CSS/playbar.css">
+    <link rel="stylesheet" href="CSS/specific_display.css">
+    <link rel="stylesheet" href="CSS/displaySelectedSong.css">
+    <link rel="stylesheet" href="CSS/responsiveness.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="body">
+        <header class="header">
+            <div class="header-content flex align">
+                <div class="flex justify align" id="spotify-logo">
+                    <img class="logo" src="IMG/logo.svg" alt="">
+                </div>
+    
+                <div class="home">
+                    <div class="home-content flex">
+                        <button id="home-logo">
+                            <img class="logo" src="IMG/home-logo.svg" alt="">
+                        </button>
+                        <div class="search-input flex">
+                            <label for="search" class="flex justify align">
+                                <img class="logo" src="IMG/search_logo.svg" alt="">
+                            </label>
+                            <input type="text" placeholder="What do you want to play?" id="search">
+                            <button id="clear-btn" class="without-text">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                            <button id="browse">
+                                <div><img class="logo" src="IMG/browse_logo.svg" alt=""></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sign-in">
+                    <div class="sign-in-content flex align">
+                        <button id="premium-button"><h4>Explore Premium</h4></button>
+                        <a href="https://open.spotify.com/download" class="flex justify align">
+                            <img class="logo" src="IMG/install_logo.svg" alt="">
+                            <span><h5>Install App</h5></span>
+                        </a>
+                        <button id="notifn">
+                            <img class="logo" src="IMG/notification_logo.svg" alt="">
+                        </button>
+                        <button id="profile" class="flex justify align">
+                            <div class="flex align justify"><h4>D</h4></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="hamburger">
+            <button><i class="fa-solid fa-bars"></i></button>
+        </div>
+
+        <div class="container flex">
+            <div class="left">
+                <header>
+                    <div class="left-header flex">
+                        <div id="div1">
+                            <button id="your-library" class="flex justify align">
+                                <span><img class="logo" src="IMG/library_logo.svg" alt=""></span>
+                                <span class="flex align"><h3>Your Library</h3></span>
+                            </button>
+                        </div>
+                        <div id="div2" class="flex">
+                            <button id="create-button" class="flex justify align">
+                                <span><img class="logo" src="IMG/create_playlist_logo.svg" alt=""></span>
+                                <span class="flex align"><h4>Create</h4></span>
+                            </button>
+                            <button id="expand-left"><img class="logo" src="IMG/left_header_arrow_logo.svg" alt=""></button>
+                        </div>
+                    </div>
+                </header>
+                <div class="left-content">
+                    <div class="playlist">
+                        <div class="flex">
+                            <h4>Create your first playlist</h4>
+                            <h5>It's easy, we'll help you</h5>
+                        </div>
+                        <button id="create-playlist"><span class="flex align"><h4>Create playlist</h4></span></button>
+                    </div>
+                    <div class="podcast">
+                        <div class="flex">
+                            <h4>Let's find some podcasts to follow</h4>
+                            <h5>We'll keep you updated on new episodes</h5>
+                        </div>
+                        <button id="browse-podcast"><span class="flex align"><h4>Browse podcasts</h4></span></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                
+                <header class="flex align">
+                        <div class="flex">
+                            
+                            <button id="All">
+                                <span><h4>All</h4></span>
+                            </button>
+                            <button id="Music">
+                                <span><h4>Music</h4></span>
+                            </button>
+                            <button id="Podcasts">
+                                <span><h4>Podcasts</h4></span>
+                            </button>
+                        </div>
+                </header>
+                
+            </div>
+        </div>
+
+        <footer class="playbar">
+            <div class="playbar-content flex">
+                <div class="current-song flex">
+                    <div class="img"><img src="" alt=""></div>
+                    <div id="song-info" class="flex">
+                        <div class="title"><h5><a href=""></a></h5></div>
+                        <div class="singer"><h6><a href=""></a></h6></div>
+                    </div>
+                </div>
+                <div class="play-options">
+                    <div class="play-buttons flex justify">
+                        <button id="shuffle"><img class="logo" src="IMG/shuffle_logo.svg" alt=""></button>
+                        <button id="prev-song"><img class="logo" src="IMG/prev_song.svg" alt=""></button>
+                        <button id="play-pause"><img src="IMG/play_pause.svg" alt=""></button>
+                        <button id="next-song"><img class="logo" src="IMG/next_song.svg" alt=""></button>
+                        <button id="repeat"><img class="logo" src="IMG/repeat_icon.svg" alt=""></button>
+                    </div>
+                    <div class="song-timing flex justify align">
+                        <div id="present-time">0:00</div>
+                        <div id="timing" class="flex align">
+                            <div></div>
+                            <button></button>
+                        </div>
+                        <div id="total-time">0.00</div>
+                    </div>
+                </div>
+                <div class="other-options"></div>
+            </div>
+        </footer>
+    </div>
+
+    <audio id="audio-player" controls style="display: none;"></audio>
+
+    <script src="JS/script.js" defer></script>
+    <script src="JS/scrollButtons.js" defer></script>
+    <script src="JS/popularAlbums.js" defer></script>
+    <script src="JS/popularArtists.js" defer></script>
+    <script src="JS/searchSong.js"></script>
+    <script src="JS/cardHover.js" defer></script>
+    <script src="JS/playSong.js" defer></script>
+    <script src="JS/specific_display.js"></script>
+    <script src="JS/right_header.js"></script>
+    <script src="JS/playbarSong.js"></script>
+    <script src="JS/leftContainer.js"></script>
+    <script src="JS/hamburger.js"></script>
+
+</body>
+</html>

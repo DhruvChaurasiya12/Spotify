@@ -1,0 +1,6 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,11rem); /* 3 equal columns */
+    grid-template-rows: repeat(3,17rem);  /* 2 rows, each 200px tall */
+    /* gap: 0.9rem; */
+}

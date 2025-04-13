@@ -1,0 +1,92 @@
+@media (max-width: 800px) {
+    .left{
+        transition: all 1.5s ease-in-out;
+        position: absolute;
+        left: -500px;
+        z-index: 1;
+    }
+
+    .left.slide-in {
+        left: 0;
+    }
+
+    .left.slide-out {
+        left: -500px;
+    }
+
+    #hamburger{
+        display: block;
+    }
+
+    .container{
+        height: 74vh;
+    }
+
+    .header-content{
+        height: 6vh;
+    }
+
+    .left #expand-left{
+        display: none;
+    }
+}
+
+@media (min-width: 801px) {
+    #hamburger{
+        display: none;
+    }
+
+    .left{
+        display: block;
+    }
+}
+
+
+/* header  */
+  
+@media (max-width: 1000px) {
+    .home-content{
+        max-width: 95%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .sign-in-content #premium-button{
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .sign-in-content a span{
+        display: none;
+    }
+    .sign-in-content a{
+        width: fit-content;
+    }
+    .home-content #browse{
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .sign-in-content a{
+        display: none;
+    }
+}
+
+
+
+
+/* playbar */
+@media (max-width: 800px) {
+    .current-song{
+        display: none;
+    }
+
+    .playbar-content{
+        justify-content: center;
+    }
+
+    .play-options{
+        width: 100%;
+    }
+}

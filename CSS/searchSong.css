@@ -1,0 +1,92 @@
+
+
+.top-result-container{
+    width: 30rem;
+    height: 14rem;
+    padding: 1rem;
+    gap: 1rem;
+    margin-left: 0.5rem;
+    position: relative;
+}
+
+.top-result-container:hover{
+    background-color: #232323;
+}
+
+.top-result-container .img{
+    width: 8rem;
+    height: 8rem;
+    position: relative;
+}
+
+.top-result-container .img .without-hover{
+    border: none;
+    position: absolute;
+    right: 0.5rem;
+    bottom: -0.5rem;
+    background-color: black;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.top-result-container .img .with-hover{
+    border: none;
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    transition: all 0.2s ease-out;
+    background-color: black;
+    border-radius: 50%;
+    visibility: visible;
+}
+
+.top-result-container h1{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.5rem;
+}
+
+.top-result-container img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 0.5rem;
+}
+
+.top-result-container .content{
+    margin-top: 1rem;
+}
+
+.top-result-container .content p{
+    color: gray;
+    font-size: 0.8rem;
+}
+
+/* .top-result-container .without-hover{
+    border: none;
+    position: absolute;
+    right: 0.5rem;
+    bottom: -0.5rem;
+    background-color: black;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.top-result-container .with-hover{
+    border: none;
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    transition: all 0.2s ease-out;
+    background-color: black;
+    border-radius: 50%;
+    visibility: visible;
+}
+
+.top-result-container .with-hover i:hover{
+    font-size: 3.1rem;
+}
+
+.top-result-container button i{
+    font-size: 3rem;
+} */

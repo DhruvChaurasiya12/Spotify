@@ -1,0 +1,34 @@
+.popular-artist .card{
+    width: 10rem;
+    height: 14rem;
+    padding: 0.5rem;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.popular-artist .card .img{
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+}
+
+.popular-artist .card .img img{
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.popular-artist .card .title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.popular-artist .card .singer{
+    font-size: 0.85rem;
+    color: rgb(170, 169, 169);
+}
+
+.popular-artist .card .singer a{
+    text-decoration: none;
+}

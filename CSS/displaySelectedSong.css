@@ -1,0 +1,47 @@
+.display-song{
+    height: 28rem;
+    width: 100%;
+    margin-top: 2rem;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.display-song:hover{
+    background-color: #232323;
+}
+
+.song-section{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.song-section .img{
+    height: 20rem;
+    width: 20rem;
+}
+
+.song-section .img img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.song-section h1{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.song-section p{
+    padding-top: 1rem;
+}
+
+.song-section .content{
+    font-size: 2rem;
+    width: 50%;
+}
